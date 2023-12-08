@@ -5,7 +5,8 @@ public class day4 {
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(new File("day4.txt"));
         int matchAmount = 0;
-
+        // Scoring : First win is one point, doubled after each win.
+        // 1 = 1, 2 = 2, 3 = 4, 4 = 8, 5 = 16...
         while(in.hasNextLine()) {
             String line = in.nextLine();
             String winning = line.substring(10,25); // Puzzle input ends at 39
@@ -36,7 +37,7 @@ public class day4 {
             {
                 for(int play = 0; play < playingArray; play++)
                 {
-                    
+
                 }
             }
         }
