@@ -25,5 +25,6 @@ public class puzzle{
         System.out.println(obj);
         // Total number at pie.length()-1 (31415) is 2225340076
         // Binary should be 10000100101000111111111010101100, which has 17 ones
+        // 10000100101000111111111010101100
     }
 }
